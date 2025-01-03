@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      
+      <h1 className='text-2xl text-orange-700 mx-auto'>Welcome to my Redux Project</h1>
     </>
   )
 }
