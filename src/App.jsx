@@ -4,48 +4,24 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './Components/Counter'
 import Stats from './Components/Stats'
+import { useDispatch, useSelector } from 'react-redux'
+import { decrement, increment } from './Freatures/Counters/CountersSlice'
 
-const initialCounters = [
-  {
-    id: 1,
-    value: 0,
-  },
-  {
-    id: 2, 
-    value: 0,
-  }
-
-]
 
 function App() {
-  const [counters, setCounters] = useState(initialCounters);
+  //Use selector one of the redux hooks it's get all the data from redux store
+  const counters = useSelector((state)=>state.counters);
+ //get action from redux
+  const dispatch = useDispatch();
+
+
 
   const handleIncrement = (counterId)=>{
-    const UpdatedCounter = counters.map(count =>{
-      if(count.id === counterId){
-        return{
-          ...count,
-          value: count.value + 1
-        }
-      }
-       return count;
-    })
-
-    setCounters(UpdatedCounter)
+    dispatch(increment(counterId));
   
   }
   const handleDecrement = (counterId)=>{
-    const UpdatedCounter = counters.map(count =>{
-      if(count.id === counterId){
-        return{
-          ...count,
-          value: count.value - 1
-        }
-      }
-       return count;
-    })
-
-    setCounters(UpdatedCounter)
+    dispatch(decrement(counterId));
   
   }
 
