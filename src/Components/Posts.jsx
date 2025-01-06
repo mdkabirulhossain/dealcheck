@@ -25,7 +25,7 @@ const Posts = () => {
         content = <ul>
             {
                 posts.map(post => <li key={post.id}>
-                    {post.title}
+                    {post.name}
                 </li>)
             }
         </ul>
