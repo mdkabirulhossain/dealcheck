@@ -1,4 +1,5 @@
 import './App.css'
+import CashFlow from './Components/CashFlow/CashFlow.jsx'
 import Financing from './Components/Financing/Financing.jsx'
 
 import Header from './Components/Header/Header.jsx'
@@ -14,6 +15,7 @@ function App() {
           <Purchase></Purchase>
           <Financing></Financing>
           <Validation></Validation>
+          <CashFlow></CashFlow>
       </div>
     </div>
   )
