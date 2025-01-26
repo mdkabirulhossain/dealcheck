@@ -5,7 +5,7 @@ const FinanceRatio = () => {
     return (
         <div className='pt-16'>
             <h2 className='text-blue-600 text-xl font-semibold pb-5'>FINANCIAL RATIOS (At Purchase)</h2>
-            <div className='grid grid-cols-2 gap-10 bg-white shadow-2xl'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 bg-white shadow-2xl'>
                 {/* left  */}
                 <div>
                     <div className='flex justify-between pl-2 pt-6'>
