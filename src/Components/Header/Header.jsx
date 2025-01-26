@@ -4,7 +4,7 @@ import { FaPen } from 'react-icons/fa'
 const Header = () => {
     return (
         <div>
-            <div className='flex justify-between mt-10'>
+            <div className='flex justify-between pt-10'>
                 <div>
                     <h2 className='text-2xl font-semibold text-blue-600'>Property Analysis</h2>
                     <p><span className='text-blue-600'>Rentals</span> / <span className='text-blue-600'>5353 Parkline Dr</span> / Property Analysis</p>
