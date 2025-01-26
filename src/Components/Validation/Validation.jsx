@@ -4,7 +4,7 @@ import { GoQuestion } from "react-icons/go";
 const Validation = () => {
     return (
         <div className='pt-16'>
-                    <h2 className='text-blue-600 text-xl font-semibold pb-5'>FINANCING (Purchase)</h2>
+                    <h2 className='text-blue-600 text-xl font-semibold pb-5'>VALUATION</h2>
                     <div className='grid grid-cols-2 gap-10 bg-white shadow-2xl'>
                         {/* left  */}
                         <div>
