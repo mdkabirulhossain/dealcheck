@@ -32,7 +32,7 @@ const Purchase = () => {
                             Rehab Costs:
                             <select className=' px-2 py-1 focus:outline-none'>
                                 <option className='text-blue-600 border-hidden' value='' disabled selected hidden>
-                                   
+
                                 </option>
                                 <option className='w-full' value='rehab-costs'>Rehab Costs: $0</option>
                                 <option value='cost-overrun'>Cost Overrun (10%): $0</option>
@@ -43,7 +43,7 @@ const Purchase = () => {
 
                     </div>
                     <hr className='h-1 my-1 ml-6 bg-blue-600' />
-                    <div className='flex justify-between pl-2 '>
+                    <div className='flex justify-between pl-2 pb-6'>
                         <p className='font-bold text-blue-600  ml-4'>Total Cash Needed: </p>
                         <p>= $ 38,800</p>
                     </div>
