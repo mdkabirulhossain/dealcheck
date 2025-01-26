@@ -50,7 +50,10 @@ const Purchase = () => {
                 </div>
                 {/* right  */}
                 <div>
-
+                    <div className='flex justify-evenly pt-6'>
+                        <p className='flex items-center gap-1'>Purchase Costs <FaPen className='text-blue-600'></FaPen></p>
+                        <p className='flex items-center gap-1 text-blue-600'>Rehab Costs <FaPen ></FaPen></p>
+                    </div>
                 </div>
             </div>
         </div>
