@@ -3,6 +3,7 @@ import Financing from './Components/Financing/Financing.jsx'
 
 import Header from './Components/Header/Header.jsx'
 import Purchase from './Components/Purchase/Purchase.jsx'
+import Validation from './Components/Validation/Validation.jsx'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
           <Header></Header>
           <Purchase></Purchase>
           <Financing></Financing>
+          <Validation></Validation>
       </div>
     </div>
   )
